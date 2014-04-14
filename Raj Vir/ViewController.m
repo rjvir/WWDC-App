@@ -47,13 +47,17 @@
     self.buttons = [[NSMutableArray alloc] init];
     
     int i = 0;
-    int width = 90, height = 90, margin;
+    int width, height, margin;
     if(kHeight > 480){
+        width = 90;
+        height = 90;
         margin = 30;
     } else {
-        margin = 10;
+        width = 85;
+        height = 85;
+        margin = 8;
     }
-    int top = kHeight - height*3 - margin*3;
+    int top = kHeight - height*3 - margin*3 - 10;
     for(NSDictionary *obj in self.data){
         UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake((320/2 - width)/2 + 160*(i%2), (i/2)*(margin+height)+top, width, height)];
         [button setBackgroundImage:[UIImage imageNamed:obj[@"icon"]] forState:UIControlStateNormal];
@@ -63,7 +67,7 @@
         [button setTitle:obj[@"title"] forState:UIControlStateNormal];
         [button setContentVerticalAlignment:UIControlContentVerticalAlignmentBottom];
         [button.titleLabel setFont:[UIFont fontWithName:PRIMARY_FONT size:12]];
-        [button setTitleEdgeInsets:UIEdgeInsetsMake(0.0f, 0.0f, -10.0f, 0.0f)];
+        [button setTitleEdgeInsets:UIEdgeInsetsMake(0.0f, 0.0f, -8.0f, 0.0f)];
         [button setAlpha:0.0];
         [self.buttons addObject:button];
         [self.view addSubview:button];
