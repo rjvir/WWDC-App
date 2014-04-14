@@ -59,9 +59,10 @@
     }
     int top = kHeight - height*3 - margin*3 - 10;
     for(NSDictionary *obj in self.data){
-        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake((320/2 - width)/2 + 160*(i%2), (i/2)*(margin+height)+top, width, height)];
+        ;
+//        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake((320/2 - width)/2 + 160*(i%2), (i/2)*(margin+height)+top, width, height)];
+        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake((320.0f-2*width)/3 + (width+(320.0f-2*width)/3)*(i%2), (i/2)*(margin+height)+top, width, height)];
         [button setBackgroundImage:[UIImage imageNamed:obj[@"icon"]] forState:UIControlStateNormal];
-        button.imageEdgeInsets = UIEdgeInsetsMake(0, button.titleLabel.frame.size.width, 0, -button.titleLabel.frame.size.width);
         [button addTarget:self action:@selector(showPopover:) forControlEvents:UIControlEventTouchUpInside];
         [button setTag:i];
         [button setTitle:obj[@"title"] forState:UIControlStateNormal];
@@ -141,6 +142,7 @@
     [self.popoverTitle setText:self.data[index][@"title"]];
     [self.popoverDescription setText:self.data[index][@"description"]];
     [self.popoverDescription setNumberOfLines:0];
+    [self.popoverDescription setFrame:CGRectMake(20, 80, 320-30*2-20*2, 200)];
     [self.popoverDescription sizeToFit];
     
     [self.popoverButton setTitle:[NSString stringWithFormat:@"%@", self.data[index][@"link-text"] ] forState:UIControlStateNormal];
