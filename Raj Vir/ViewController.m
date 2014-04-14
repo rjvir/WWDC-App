@@ -36,7 +36,7 @@
     [self.view addSubview:self.header];
     
     self.intro = [[UILabel alloc] initWithFrame:CGRectMake(140, 20+44+10, 320-140, 130)];
-    [self.intro setText:@"I’m a developer, designer, and student at the University of Michigan. \n \nTap icons to explore some things I’ve done"];
+    [self.intro setText:@"I’m a developer, designer, and student at the University of Michigan. \n \nTap icons to explore some things I’ve done."];
     [self.intro setFont:[UIFont fontWithName:PRIMARY_FONT size:15]];
     [self.intro setTextColor:[UIColor whiteColor]];
     [self.intro setNumberOfLines:0];
