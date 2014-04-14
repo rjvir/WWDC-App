@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710DE79318FB99050078766F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710DE79218FB99050078766F /* Foundation.framework */; };
+		710DE79518FB99050078766F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710DE79418FB99050078766F /* CoreGraphics.framework */; };
+		710DE79718FB99050078766F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710DE79618FB99050078766F /* UIKit.framework */; };
+		710DE79D18FB99050078766F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 710DE79B18FB99050078766F /* InfoPlist.strings */; };
+		710DE79F18FB99050078766F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE79E18FB99050078766F /* main.m */; };
+		710DE7A318FB99050078766F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE7A218FB99050078766F /* AppDelegate.m */; };
+		710DE7A618FB99050078766F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7A418FB99050078766F /* Main.storyboard */; };
+		710DE7A918FB99050078766F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE7A818FB99050078766F /* ViewController.m */; };
+		710DE7AB18FB99050078766F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7AA18FB99050078766F /* Images.xcassets */; };
+		710DE7B218FB99050078766F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710DE7B118FB99050078766F /* XCTest.framework */; };
+		710DE7B318FB99050078766F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710DE79218FB99050078766F /* Foundation.framework */; };
+		710DE7B418FB99050078766F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710DE79618FB99050078766F /* UIKit.framework */; };
+		710DE7BC18FB99050078766F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7BA18FB99050078766F /* InfoPlist.strings */; };
+		710DE7BE18FB99050078766F /* Raj_VirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE7BD18FB99050078766F /* Raj_VirTests.m */; };
+		710DE7CB18FB9AF00078766F /* grabg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7CA18FB9AF00078766F /* grabg@2x.png */; };
+		710DE7CD18FBA1EA0078766F /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7CC18FBA1EA0078766F /* profile.png */; };
+		710DE7D518FBB6E70078766F /* digginthefuture.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7CF18FBB6E70078766F /* digginthefuture.png */; };
+		710DE7D618FBB6E70078766F /* hackny.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7D018FBB6E70078766F /* hackny.png */; };
+		710DE7D718FBB6E70078766F /* mhacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7D118FBB6E70078766F /* mhacks.png */; };
+		710DE7D818FBB6E70078766F /* nowcation.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7D218FBB6E70078766F /* nowcation.png */; };
+		710DE7D918FBB6E70078766F /* snapchat.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7D318FBB6E70078766F /* snapchat.png */; };
+		710DE7DA18FBB6E70078766F /* ucla.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7D418FBB6E70078766F /* ucla.png */; };
+		710DE7DC18FC36510078766F /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7DB18FC36510078766F /* cross.png */; };
+		710DE7E018FC5F370078766F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7DF18FC5F370078766F /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		710DE7B518FB99050078766F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710DE78718FB99050078766F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710DE78E18FB99050078766F;
+			remoteInfo = "Raj Vir";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		710DE78F18FB99050078766F /* Raj Vir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raj Vir.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710DE79218FB99050078766F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		710DE79418FB99050078766F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		710DE79618FB99050078766F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		710DE79A18FB99050078766F /* Raj Vir-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Raj Vir-Info.plist"; sourceTree = "<group>"; };
+		710DE79C18FB99050078766F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		710DE79E18FB99050078766F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		710DE7A018FB99050078766F /* Raj Vir-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Raj Vir-Prefix.pch"; sourceTree = "<group>"; };
+		710DE7A118FB99050078766F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		710DE7A218FB99050078766F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		710DE7A518FB99050078766F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		710DE7A718FB99050078766F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		710DE7A818FB99050078766F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		710DE7AA18FB99050078766F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		710DE7B018FB99050078766F /* Raj VirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raj VirTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710DE7B118FB99050078766F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		710DE7B918FB99050078766F /* Raj VirTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Raj VirTests-Info.plist"; sourceTree = "<group>"; };
+		710DE7BB18FB99050078766F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		710DE7BD18FB99050078766F /* Raj_VirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Raj_VirTests.m; sourceTree = "<group>"; };
+		710DE7C718FB99180078766F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constants.h; sourceTree = "<group>"; };
+		710DE7CA18FB9AF00078766F /* grabg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grabg@2x.png"; sourceTree = "<group>"; };
+		710DE7CC18FBA1EA0078766F /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		710DE7CF18FBB6E70078766F /* digginthefuture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digginthefuture.png; sourceTree = "<group>"; };
+		710DE7D018FBB6E70078766F /* hackny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hackny.png; sourceTree = "<group>"; };
+		710DE7D118FBB6E70078766F /* mhacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhacks.png; sourceTree = "<group>"; };
+		710DE7D218FBB6E70078766F /* nowcation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nowcation.png; sourceTree = "<group>"; };
+		710DE7D318FBB6E70078766F /* snapchat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapchat.png; sourceTree = "<group>"; };
+		710DE7D418FBB6E70078766F /* ucla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ucla.png; sourceTree = "<group>"; };
+		710DE7DB18FC36510078766F /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		710DE7DF18FC5F370078766F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		710DE78C18FB99050078766F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710DE79518FB99050078766F /* CoreGraphics.framework in Frameworks */,
+				710DE79718FB99050078766F /* UIKit.framework in Frameworks */,
+				710DE79318FB99050078766F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710DE7AD18FB99050078766F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710DE7B218FB99050078766F /* XCTest.framework in Frameworks */,
+				710DE7B418FB99050078766F /* UIKit.framework in Frameworks */,
+				710DE7B318FB99050078766F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710DE78618FB99050078766F = {
+			isa = PBXGroup;
+			children = (
+				710DE79818FB99050078766F /* Raj Vir */,
+				710DE7B718FB99050078766F /* Raj VirTests */,
+				710DE79118FB99050078766F /* Frameworks */,
+				710DE79018FB99050078766F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		710DE79018FB99050078766F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710DE78F18FB99050078766F /* Raj Vir.app */,
+				710DE7B018FB99050078766F /* Raj VirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710DE79118FB99050078766F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				710DE79218FB99050078766F /* Foundation.framework */,
+				710DE79418FB99050078766F /* CoreGraphics.framework */,
+				710DE79618FB99050078766F /* UIKit.framework */,
+				710DE7B118FB99050078766F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		710DE79818FB99050078766F /* Raj Vir */ = {
+			isa = PBXGroup;
+			children = (
+				710DE7C818FB9ADE0078766F /* Assets */,
+				710DE7C718FB99180078766F /* Constants.h */,
+				710DE7A118FB99050078766F /* AppDelegate.h */,
+				710DE7A218FB99050078766F /* AppDelegate.m */,
+				710DE7A418FB99050078766F /* Main.storyboard */,
+				710DE7A718FB99050078766F /* ViewController.h */,
+				710DE7A818FB99050078766F /* ViewController.m */,
+				710DE7AA18FB99050078766F /* Images.xcassets */,
+				710DE79918FB99050078766F /* Supporting Files */,
+			);
+			path = "Raj Vir";
+			sourceTree = "<group>";
+		};
+		710DE79918FB99050078766F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				710DE79A18FB99050078766F /* Raj Vir-Info.plist */,
+				710DE79B18FB99050078766F /* InfoPlist.strings */,
+				710DE79E18FB99050078766F /* main.m */,
+				710DE7A018FB99050078766F /* Raj Vir-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		710DE7B718FB99050078766F /* Raj VirTests */ = {
+			isa = PBXGroup;
+			children = (
+				710DE7BD18FB99050078766F /* Raj_VirTests.m */,
+				710DE7B818FB99050078766F /* Supporting Files */,
+			);
+			path = "Raj VirTests";
+			sourceTree = "<group>";
+		};
+		710DE7B818FB99050078766F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				710DE7B918FB99050078766F /* Raj VirTests-Info.plist */,
+				710DE7BA18FB99050078766F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		710DE7C818FB9ADE0078766F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				710DE7C918FB9AE60078766F /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		710DE7C918FB9AE60078766F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				710DE7DF18FC5F370078766F /* icon.png */,
+				710DE7DB18FC36510078766F /* cross.png */,
+				710DE7CE18FBB6E70078766F /* icons */,
+				710DE7CC18FBA1EA0078766F /* profile.png */,
+				710DE7CA18FB9AF00078766F /* grabg@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		710DE7CE18FBB6E70078766F /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				710DE7CF18FBB6E70078766F /* digginthefuture.png */,
+				710DE7D018FBB6E70078766F /* hackny.png */,
+				710DE7D118FBB6E70078766F /* mhacks.png */,
+				710DE7D218FBB6E70078766F /* nowcation.png */,
+				710DE7D318FBB6E70078766F /* snapchat.png */,
+				710DE7D418FBB6E70078766F /* ucla.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		710DE78E18FB99050078766F /* Raj Vir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710DE7C118FB99050078766F /* Build configuration list for PBXNativeTarget "Raj Vir" */;
+			buildPhases = (
+				710DE78B18FB99050078766F /* Sources */,
+				710DE78C18FB99050078766F /* Frameworks */,
+				710DE78D18FB99050078766F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Raj Vir";
+			productName = "Raj Vir";
+			productReference = 710DE78F18FB99050078766F /* Raj Vir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		710DE7AF18FB99050078766F /* Raj VirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710DE7C418FB99050078766F /* Build configuration list for PBXNativeTarget "Raj VirTests" */;
+			buildPhases = (
+				710DE7AC18FB99050078766F /* Sources */,
+				710DE7AD18FB99050078766F /* Frameworks */,
+				710DE7AE18FB99050078766F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				710DE7B618FB99050078766F /* PBXTargetDependency */,
+			);
+			name = "Raj VirTests";
+			productName = "Raj VirTests";
+			productReference = 710DE7B018FB99050078766F /* Raj VirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710DE78718FB99050078766F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Raj Vir";
+				TargetAttributes = {
+					710DE7AF18FB99050078766F = {
+						TestTargetID = 710DE78E18FB99050078766F;
+					};
+				};
+			};
+			buildConfigurationList = 710DE78A18FB99050078766F /* Build configuration list for PBXProject "Raj Vir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 710DE78618FB99050078766F;
+			productRefGroup = 710DE79018FB99050078766F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				710DE78E18FB99050078766F /* Raj Vir */,
+				710DE7AF18FB99050078766F /* Raj VirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710DE78D18FB99050078766F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710DE7E018FC5F370078766F /* icon.png in Resources */,
+				710DE7CB18FB9AF00078766F /* grabg@2x.png in Resources */,
+				710DE7D918FBB6E70078766F /* snapchat.png in Resources */,
+				710DE7D618FBB6E70078766F /* hackny.png in Resources */,
+				710DE7AB18FB99050078766F /* Images.xcassets in Resources */,
+				710DE7DA18FBB6E70078766F /* ucla.png in Resources */,
+				710DE7D518FBB6E70078766F /* digginthefuture.png in Resources */,
+				710DE7DC18FC36510078766F /* cross.png in Resources */,
+				710DE7D818FBB6E70078766F /* nowcation.png in Resources */,
+				710DE7D718FBB6E70078766F /* mhacks.png in Resources */,
+				710DE79D18FB99050078766F /* InfoPlist.strings in Resources */,
+				710DE7CD18FBA1EA0078766F /* profile.png in Resources */,
+				710DE7A618FB99050078766F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710DE7AE18FB99050078766F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710DE7BC18FB99050078766F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710DE78B18FB99050078766F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710DE7A918FB99050078766F /* ViewController.m in Sources */,
+				710DE7A318FB99050078766F /* AppDelegate.m in Sources */,
+				710DE79F18FB99050078766F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710DE7AC18FB99050078766F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710DE7BE18FB99050078766F /* Raj_VirTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		710DE7B618FB99050078766F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 710DE78E18FB99050078766F /* Raj Vir */;
+			targetProxy = 710DE7B518FB99050078766F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		710DE79B18FB99050078766F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710DE79C18FB99050078766F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		710DE7A418FB99050078766F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710DE7A518FB99050078766F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		710DE7BA18FB99050078766F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710DE7BB18FB99050078766F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		710DE7BF18FB99050078766F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		710DE7C018FB99050078766F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		710DE7C218FB99050078766F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raj Vir/Raj Vir-Prefix.pch";
+				INFOPLIST_FILE = "Raj Vir/Raj Vir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		710DE7C318FB99050078766F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raj Vir/Raj Vir-Prefix.pch";
+				INFOPLIST_FILE = "Raj Vir/Raj Vir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		710DE7C518FB99050078766F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Raj Vir.app/Raj Vir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raj Vir/Raj Vir-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Raj VirTests/Raj VirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		710DE7C618FB99050078766F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Raj Vir.app/Raj Vir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raj Vir/Raj Vir-Prefix.pch";
+				INFOPLIST_FILE = "Raj VirTests/Raj VirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		710DE78A18FB99050078766F /* Build configuration list for PBXProject "Raj Vir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710DE7BF18FB99050078766F /* Debug */,
+				710DE7C018FB99050078766F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710DE7C118FB99050078766F /* Build configuration list for PBXNativeTarget "Raj Vir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710DE7C218FB99050078766F /* Debug */,
+				710DE7C318FB99050078766F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		710DE7C418FB99050078766F /* Build configuration list for PBXNativeTarget "Raj VirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710DE7C518FB99050078766F /* Debug */,
+				710DE7C618FB99050078766F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 710DE78718FB99050078766F /* Project object */;
+}
