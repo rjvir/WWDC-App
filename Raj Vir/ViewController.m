@@ -36,7 +36,7 @@
     [self.view addSubview:self.header];
     
     self.intro = [[UILabel alloc] initWithFrame:CGRectMake(140, 20+44+10, 320-140, 130)];
-    [self.intro setText:@"I’m a developer, designer, and student at the University of Michigan. \n \nTap icons to explore some things I’ve done."];
+    [self.intro setText:@"I’m a developer, designer, and student from Los Angeles, CA. \n \nTap icons to learn more about me and my projects."];
     [self.intro setFont:[UIFont fontWithName:PRIMARY_FONT size:15]];
     [self.intro setTextColor:[UIColor whiteColor]];
     [self.intro setNumberOfLines:0];
@@ -58,10 +58,11 @@
         margin = 8;
     }
     int top = kHeight - height*3 - margin*3 - 10;
+    int gutter = (320.0f - width*3.0f)/4.0f;
     for(NSDictionary *obj in self.data){
         ;
 //        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake((320/2 - width)/2 + 160*(i%2), (i/2)*(margin+height)+top, width, height)];
-        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake((320.0f-2*width)/3 + (width+(320.0f-2*width)/3)*(i%2), (i/2)*(margin+height)+top, width, height)];
+        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(gutter + (gutter+width)*(i%3), (i/3)*(margin+height)+top, width, height)];
         [button setBackgroundImage:[UIImage imageNamed:obj[@"icon"]] forState:UIControlStateNormal];
         [button addTarget:self action:@selector(showPopover:) forControlEvents:UIControlEventTouchUpInside];
         [button setTag:i];
@@ -186,7 +187,7 @@
 - (void) initContent {
     self.data = @[
                   @{@"title": @"MHacks App",
-                    @"description": @"I built the app for MHacks, the largest hackathon in the world. \n\nThe MHacks app allows participants to view announcements, contact mentors, and chat with other hackers. \n\nThe app's design and functionality has since been copied by many other collegiate hackathons.",
+                    @"description": @"I built the app for MHacks, the first of it's kind at a hackathon. \n\nThe MHacks app allows participants to view announcements, contact mentors, and chat with other hackers. \n\nThe app's design and functionality has since been copied by many other collegiate hackathons.",
                     @"icon": @"mhacks.png",
                     @"link": @"https://itunes.apple.com/us/app/mhacks/id790082591",
                     @"link-text": @"View on App Store"},
@@ -209,17 +210,36 @@
                     @"link": @"http://gigaom.com/2010/08/24/hey-digg-this-17-year-old-knows-what-you-are-thinking/",
                     @"link-text": @"Read Article"},
 
+                  @{@"title": @"Market Loco",
+                    @"description": @"I made Market Loco, a website where college students can buy and sell things from other students on campus. \n\nThe site launched at multiple colleges across the nation.",
+                    @"icon": @"marketloco.png",
+                    @"link": @"http://marketloco.com",
+                    @"link-text": @"Visit Website"},
+
+                  @{@"title": @"Iron Man VR",
+                    @"description": @"I built an Iron Man game using Oculus Rift and XBox Kinect. \n\nIn the game, you fly around as Iron Man and shoot down flying sharks who are attacking you. \n\nIt won best Oculus Rift hack at Bitcamp.",
+                    @"icon": @"ironman.png",
+                    @"link": @"http://instagram.com/p/miupkikUJT/",
+                    @"link-text": @"Watch Video"},
+
                   @{@"title": @"HackNY Fellow",
                     @"description": @"The HackNY fellowship selects a small number of students to live in New York over a Summer and work at a startup. \n\nI was selected as a fellow and worked at Plated as a Software Engineering Intern.",
                     @"icon": @"hackny.png",
                     @"link": @"http://www.plated.com/",
                     @"link-text": @"Visit Plated.com"},
+                  
+                  @{@"title": @"Education",
+                    @"description": @"I'm currently a student at the University of Michigan, majoring in Computer Science and Entrepreneurship. \n\nPreviously, I graduated at the top of my class at Beverly Hills High School.",
+                    @"icon": @"michigan.png",
+                    @"link": @"http://umich.edu",
+                    @"link-text": @"Go Blue!"},
 
                   @{@"title": @"UCLA Research",
                     @"description": @"While in high school, I worked at Prof. John Villasenor's Image Communication Lab at UCLA. \n\nThe focus of the research was LTE, and I built an LTE Simulator using Matlab and C++.",
                     @"icon": @"ucla.png",
                     @"link": @"http://johnvillasenor.com/",
                     @"link-text": @"Visit Website"}
+                  
                   ];
 }
 

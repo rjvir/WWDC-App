@@ -25,12 +25,15 @@
 		710DE7CD18FBA1EA0078766F /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7CC18FBA1EA0078766F /* profile.png */; };
 		710DE7D518FBB6E70078766F /* digginthefuture.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7CF18FBB6E70078766F /* digginthefuture.png */; };
 		710DE7D618FBB6E70078766F /* hackny.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7D018FBB6E70078766F /* hackny.png */; };
-		710DE7D718FBB6E70078766F /* mhacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7D118FBB6E70078766F /* mhacks.png */; };
 		710DE7D818FBB6E70078766F /* nowcation.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7D218FBB6E70078766F /* nowcation.png */; };
 		710DE7D918FBB6E70078766F /* snapchat.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7D318FBB6E70078766F /* snapchat.png */; };
 		710DE7DA18FBB6E70078766F /* ucla.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7D418FBB6E70078766F /* ucla.png */; };
 		710DE7DC18FC36510078766F /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7DB18FC36510078766F /* cross.png */; };
 		710DE7E018FC5F370078766F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7DF18FC5F370078766F /* icon.png */; };
+		710DE7E318FC725E0078766F /* marketloco.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7E118FC725E0078766F /* marketloco.png */; };
+		710DE7E618FC75460078766F /* mhacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7E518FC75460078766F /* mhacks.png */; };
+		710DE7E818FC757C0078766F /* michigan.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7E718FC757C0078766F /* michigan.png */; };
+		710DE7EC18FC78DE0078766F /* ironman.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7EB18FC78DE0078766F /* ironman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,12 +71,15 @@
 		710DE7CC18FBA1EA0078766F /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		710DE7CF18FBB6E70078766F /* digginthefuture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digginthefuture.png; sourceTree = "<group>"; };
 		710DE7D018FBB6E70078766F /* hackny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hackny.png; sourceTree = "<group>"; };
-		710DE7D118FBB6E70078766F /* mhacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhacks.png; sourceTree = "<group>"; };
 		710DE7D218FBB6E70078766F /* nowcation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nowcation.png; sourceTree = "<group>"; };
 		710DE7D318FBB6E70078766F /* snapchat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapchat.png; sourceTree = "<group>"; };
 		710DE7D418FBB6E70078766F /* ucla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ucla.png; sourceTree = "<group>"; };
 		710DE7DB18FC36510078766F /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		710DE7DF18FC5F370078766F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		710DE7E118FC725E0078766F /* marketloco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marketloco.png; sourceTree = "<group>"; };
+		710DE7E518FC75460078766F /* mhacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhacks.png; sourceTree = "<group>"; };
+		710DE7E718FC757C0078766F /* michigan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = michigan.png; sourceTree = "<group>"; };
+		710DE7EB18FC78DE0078766F /* ironman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ironman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,9 +204,12 @@
 		710DE7CE18FBB6E70078766F /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				710DE7EB18FC78DE0078766F /* ironman.png */,
+				710DE7E718FC757C0078766F /* michigan.png */,
+				710DE7E518FC75460078766F /* mhacks.png */,
+				710DE7E118FC725E0078766F /* marketloco.png */,
 				710DE7CF18FBB6E70078766F /* digginthefuture.png */,
 				710DE7D018FBB6E70078766F /* hackny.png */,
-				710DE7D118FBB6E70078766F /* mhacks.png */,
 				710DE7D218FBB6E70078766F /* nowcation.png */,
 				710DE7D318FBB6E70078766F /* snapchat.png */,
 				710DE7D418FBB6E70078766F /* ucla.png */,
@@ -286,16 +295,19 @@
 			files = (
 				710DE7E018FC5F370078766F /* icon.png in Resources */,
 				710DE7CB18FB9AF00078766F /* grabg@2x.png in Resources */,
+				710DE7EC18FC78DE0078766F /* ironman.png in Resources */,
 				710DE7D918FBB6E70078766F /* snapchat.png in Resources */,
 				710DE7D618FBB6E70078766F /* hackny.png in Resources */,
 				710DE7AB18FB99050078766F /* Images.xcassets in Resources */,
 				710DE7DA18FBB6E70078766F /* ucla.png in Resources */,
 				710DE7D518FBB6E70078766F /* digginthefuture.png in Resources */,
+				710DE7E618FC75460078766F /* mhacks.png in Resources */,
 				710DE7DC18FC36510078766F /* cross.png in Resources */,
+				710DE7E818FC757C0078766F /* michigan.png in Resources */,
 				710DE7D818FBB6E70078766F /* nowcation.png in Resources */,
-				710DE7D718FBB6E70078766F /* mhacks.png in Resources */,
 				710DE79D18FB99050078766F /* InfoPlist.strings in Resources */,
 				710DE7CD18FBA1EA0078766F /* profile.png in Resources */,
+				710DE7E318FC725E0078766F /* marketloco.png in Resources */,
 				710DE7A618FB99050078766F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
