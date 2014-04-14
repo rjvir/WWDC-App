@@ -34,6 +34,7 @@
 		710DE7E618FC75460078766F /* mhacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7E518FC75460078766F /* mhacks.png */; };
 		710DE7E818FC757C0078766F /* michigan.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7E718FC757C0078766F /* michigan.png */; };
 		710DE7EC18FC78DE0078766F /* ironman.png in Resources */ = {isa = PBXBuildFile; fileRef = 710DE7EB18FC78DE0078766F /* ironman.png */; };
+		710DE7EF18FC81000078766F /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710DE7EE18FC81000078766F /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		710DE7E518FC75460078766F /* mhacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhacks.png; sourceTree = "<group>"; };
 		710DE7E718FC757C0078766F /* michigan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = michigan.png; sourceTree = "<group>"; };
 		710DE7EB18FC78DE0078766F /* ironman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ironman.png; sourceTree = "<group>"; };
+		710DE7ED18FC81000078766F /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		710DE7EE18FC81000078766F /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				710DE7A418FB99050078766F /* Main.storyboard */,
 				710DE7A718FB99050078766F /* ViewController.h */,
 				710DE7A818FB99050078766F /* ViewController.m */,
+				710DE7ED18FC81000078766F /* WebViewController.h */,
+				710DE7EE18FC81000078766F /* WebViewController.m */,
 				710DE7AA18FB99050078766F /* Images.xcassets */,
 				710DE79918FB99050078766F /* Supporting Files */,
 			);
@@ -330,6 +335,7 @@
 				710DE7A918FB99050078766F /* ViewController.m in Sources */,
 				710DE7A318FB99050078766F /* AppDelegate.m in Sources */,
 				710DE79F18FB99050078766F /* main.m in Sources */,
+				710DE7EF18FC81000078766F /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

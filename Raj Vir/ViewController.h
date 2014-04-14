@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIPopoverControllerDelegate>
+@interface ViewController : UIViewController<UIWebViewDelegate>
 
 @property (strong, nonatomic) UIImageView *profile;
 
@@ -25,6 +25,13 @@
 @property (strong, nonatomic) UIButton *popoverButton;
 @property (strong, nonatomic) UIView *backgroundView;
 
+@property (strong, nonatomic) UIView *webViewContainer;
+@property (strong, nonatomic) UIWebView *webView;
+@property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;
+
 @property (strong, nonatomic) UIDynamicAnimator *animator;
+
+@property BOOL loaded;
+@property int index;
 
 @end

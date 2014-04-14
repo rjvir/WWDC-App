@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WebViewController.h"
 
 @interface ViewController ()
 
@@ -36,7 +37,7 @@
     [self.view addSubview:self.header];
     
     self.intro = [[UILabel alloc] initWithFrame:CGRectMake(140, 20+44+10, 320-140, 130)];
-    [self.intro setText:@"I’m a developer, designer, and student from Los Angeles, CA. \n \nTap icons to learn more about me and my projects."];
+    [self.intro setText:@"I’m a developer, designer, and student at the University of Michigan. \n \nTap icons to learn more about me and my projects."];
     [self.intro setFont:[UIFont fontWithName:PRIMARY_FONT size:15]];
     [self.intro setTextColor:[UIColor whiteColor]];
     [self.intro setNumberOfLines:0];
@@ -110,25 +111,28 @@
     [closeButton setBackgroundImage:[UIImage imageNamed:@"cross.png"] forState:UIControlStateNormal];
     [closeButton addTarget:self action:@selector(closePopover) forControlEvents:UIControlEventTouchUpInside];
     [self.popoverView addSubview:closeButton];
-	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    NSMutableArray *fadeInObjects = [[NSMutableArray alloc] initWithArray:@[self.profile, self.header, self.intro]];
-    for(UIButton *button in self.buttons){
-        [fadeInObjects addObject:button];
-    }
-    
-    int i = 0;
-    for(UIView *view in fadeInObjects){
-        [view setTransform:CGAffineTransformMakeScale(1.5, 1.5)];
-        [UIView animateWithDuration:0.3 delay:.15*i options:0 animations:^{
-            [view setAlpha:1.0];
-            [view setTransform:CGAffineTransformIdentity];
-        } completion:^(BOOL finished) {
-            //
-        }];
-        i++;
+    if(!self.loaded){
+        NSMutableArray *fadeInObjects = [[NSMutableArray alloc] initWithArray:@[self.profile, self.header, self.intro]];
+        for(UIButton *button in self.buttons){
+            [fadeInObjects addObject:button];
+        }
+        
+        int i = 0;
+        for(UIView *view in fadeInObjects){
+            [view setTransform:CGAffineTransformMakeScale(1.5, 1.5)];
+            [UIView animateWithDuration:0.3 delay:.15*i options:0 animations:^{
+                [view setAlpha:1.0];
+                [view setTransform:CGAffineTransformIdentity];
+            } completion:^(BOOL finished) {
+                //
+            }];
+            i++;
+        }
+        self.loaded = true;
     }
     
 }
@@ -180,10 +184,36 @@
 }
 
 - (void)buttonPressed:(UIButton *)sender {
-    int index = [sender tag];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.data[index][@"link"]]];
-}
+    self.index = [sender tag];
+    if(self.index == 0){ //open app store links directly
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.data[self.index][@"link"]]];
+    } else {
+//        self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 320, kHeight)];
+//        [self.webView setDelegate:self];
+//        
+//        NSString *urlAddress = self.data[index][@"link"];
+//        NSURL *url1 = [NSURL URLWithString:urlAddress];
+//        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url1];
+//        [self.webView loadRequest:requestObj];
+//        
+//        [self.view addSubview:self.webView];
+        [self performSegueWithIdentifier:@"presentWebView" sender:self];
+        WebViewController *webView = [[WebViewController alloc] init];
+    }
     
+}
+
+- (void)closeWebView {
+    
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    WebViewController *vc = [segue destinationViewController];
+    [vc setUrl:self.data[self.index][@"link"]];
+
+    
+}
+
 - (void) initContent {
     self.data = @[
                   @{@"title": @"MHacks App",
@@ -217,7 +247,7 @@
                     @"link-text": @"Visit Website"},
 
                   @{@"title": @"Iron Man VR",
-                    @"description": @"I built an Iron Man game using Oculus Rift and XBox Kinect. \n\nIn the game, you fly around as Iron Man and shoot down flying sharks who are attacking you. \n\nIt won best Oculus Rift hack at Bitcamp.",
+                    @"description": @"I built an Iron Man game using the Oculus Rift. \n\nIn the game, you fly around as Iron Man and shoot down flying sharks who are attacking you. \n\nIt won best Oculus Rift hack at Bitcamp.",
                     @"icon": @"ironman.png",
                     @"link": @"http://instagram.com/p/miupkikUJT/",
                     @"link-text": @"Watch Video"},
